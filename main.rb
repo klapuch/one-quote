@@ -79,7 +79,7 @@ class Feed
   def consume
     quote = Quote.new.value
     message = format(
-      "<em>%s</em> \n\n<strong>%s</strong> - %s",
+      "<em>%s</em>\n\n<strong>%s</strong> - %s",
       quote[:text],
       quote[:origin],
       quote[:about]
